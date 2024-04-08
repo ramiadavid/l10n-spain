@@ -1,3 +1,6 @@
 # generated from manifests external_dependencies
 cryptography
+cryptography==3.4.8
+pycountry
 unidecode
+xmlsig
