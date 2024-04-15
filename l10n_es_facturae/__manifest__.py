@@ -10,7 +10,7 @@
 
 {
     "name": "Creación de Facturae",
-    "version": "16.0.1.8.0",
+    "version": "17.0.1.0.0",
     "author": "ASR-OSS, "
     "FactorLibre, "
     "Tecon, "
@@ -33,7 +33,6 @@
     ],
     "data": [
         "security/ir.model.access.csv",
-        "data/account_tax_template.xml",
         "views/res_partner_view.xml",
         "views/res_company.xml",
         "views/payment_mode_view.xml",
