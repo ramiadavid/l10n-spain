@@ -18,9 +18,9 @@ msgstr ""
 "X-Generator: Weblate 4.17\n"
 
 #. module: l10n_es_intrastat_report
-#: model_terms:ir.ui.view,arch_db:l10n_es_intrastat_report.l10n_es_intrastat_product_computation_line_view_tree
-msgid "/&gt;"
-msgstr "/&gt;"
+#: model:ir.model,name:l10n_es_intrastat_report.model_account_chart_template
+msgid "Account Chart Template"
+msgstr ""
 
 #. module: l10n_es_intrastat_report
 #: model:ir.model.fields,field_description:l10n_es_intrastat_report.field_intrastat_product_declaration__message_needaction
@@ -158,11 +158,6 @@ msgid "Is Follower"
 msgstr "Es un seguidor"
 
 #. module: l10n_es_intrastat_report
-#: model:ir.model.fields,field_description:l10n_es_intrastat_report.field_l10n_es_intrastat_code_import____last_update
-msgid "Last Modified on"
-msgstr "Última modificación el"
-
-#. module: l10n_es_intrastat_report
 #: model:ir.model.fields,field_description:l10n_es_intrastat_report.field_l10n_es_intrastat_code_import__write_uid
 msgid "Last Updated by"
 msgstr "Última actualización por"
@@ -171,11 +166,6 @@ msgstr "Última actualización por"
 #: model:ir.model.fields,field_description:l10n_es_intrastat_report.field_l10n_es_intrastat_code_import__write_date
 msgid "Last Updated on"
 msgstr "Última actualización el"
-
-#. module: l10n_es_intrastat_report
-#: model:ir.model.fields,field_description:l10n_es_intrastat_report.field_intrastat_product_declaration__message_main_attachment_id
-msgid "Main Attachment"
-msgstr "Adjunto principal"
 
 #. module: l10n_es_intrastat_report
 #: model:ir.model.fields,field_description:l10n_es_intrastat_report.field_intrastat_product_declaration__message_has_error
@@ -272,6 +262,11 @@ msgid ""
 msgstr ""
 "Operaciones posteriores al perfeccionamiento bajo contrato (no se traspasa "
 "la propiedad al contratista): Reparación o mantenimiento a título oneroso."
+
+#. module: l10n_es_intrastat_report
+#: model:ir.model.fields,field_description:l10n_es_intrastat_report.field_intrastat_product_declaration__rating_ids
+msgid "Ratings"
+msgstr ""
 
 #. module: l10n_es_intrastat_report
 #: model_terms:ir.ui.view,arch_db:l10n_es_intrastat_report.l10n_es_intrastat_product_declaration_view_search
@@ -377,6 +372,15 @@ msgstr "Historial de comunicación del sitio web"
 #: model:ir.model.fields,field_description:l10n_es_intrastat_report.field_intrastat_product_declaration_line__weight
 msgid "Weight"
 msgstr "Peso"
+
+#~ msgid "/&gt;"
+#~ msgstr "/&gt;"
+
+#~ msgid "Last Modified on"
+#~ msgstr "Última modificación el"
+
+#~ msgid "Main Attachment"
+#~ msgstr "Adjunto principal"
 
 #~ msgid "Type of the exception activity on record."
 #~ msgstr "Tipo de actividad de excepción registrada."

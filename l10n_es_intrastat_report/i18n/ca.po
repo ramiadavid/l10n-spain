@@ -17,8 +17,8 @@ msgstr ""
 "X-Generator: Weblate 4.3.2\n"
 
 #. module: l10n_es_intrastat_report
-#: model_terms:ir.ui.view,arch_db:l10n_es_intrastat_report.l10n_es_intrastat_product_computation_line_view_tree
-msgid "/&gt;"
+#: model:ir.model,name:l10n_es_intrastat_report.model_account_chart_template
+msgid "Account Chart Template"
 msgstr ""
 
 #. module: l10n_es_intrastat_report
@@ -154,11 +154,6 @@ msgid "Is Follower"
 msgstr "És seguidor"
 
 #. module: l10n_es_intrastat_report
-#: model:ir.model.fields,field_description:l10n_es_intrastat_report.field_l10n_es_intrastat_code_import____last_update
-msgid "Last Modified on"
-msgstr "Darrera modificació el"
-
-#. module: l10n_es_intrastat_report
 #: model:ir.model.fields,field_description:l10n_es_intrastat_report.field_l10n_es_intrastat_code_import__write_uid
 msgid "Last Updated by"
 msgstr "Darrera actualització per"
@@ -167,11 +162,6 @@ msgstr "Darrera actualització per"
 #: model:ir.model.fields,field_description:l10n_es_intrastat_report.field_l10n_es_intrastat_code_import__write_date
 msgid "Last Updated on"
 msgstr "Darrera actualització el"
-
-#. module: l10n_es_intrastat_report
-#: model:ir.model.fields,field_description:l10n_es_intrastat_report.field_intrastat_product_declaration__message_main_attachment_id
-msgid "Main Attachment"
-msgstr "Adjunt principal"
 
 #. module: l10n_es_intrastat_report
 #: model:ir.model.fields,field_description:l10n_es_intrastat_report.field_intrastat_product_declaration__message_has_error
@@ -257,6 +247,11 @@ msgstr ""
 msgid ""
 "Operaciones posteriores al perfeccionamiento bajo contrato (no se traspasa "
 "la propiedad al contratista): Reparación o mantenimiento a título oneroso."
+msgstr ""
+
+#. module: l10n_es_intrastat_report
+#: model:ir.model.fields,field_description:l10n_es_intrastat_report.field_intrastat_product_declaration__rating_ids
+msgid "Ratings"
 msgstr ""
 
 #. module: l10n_es_intrastat_report
@@ -353,6 +348,12 @@ msgstr "Historial de comunicació del web"
 #: model:ir.model.fields,field_description:l10n_es_intrastat_report.field_intrastat_product_declaration_line__weight
 msgid "Weight"
 msgstr "Pes"
+
+#~ msgid "Last Modified on"
+#~ msgstr "Darrera modificació el"
+
+#~ msgid "Main Attachment"
+#~ msgstr "Adjunt principal"
 
 #~ msgid "Reporting Level"
 #~ msgstr "Nivell d'informe"
