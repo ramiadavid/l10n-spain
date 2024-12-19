@@ -4,6 +4,7 @@ cryptography
 cryptography==3.4.8
 pycountry
 pycryptodome
+suds-py3
 unidecode
 xmlsig
 zeep
